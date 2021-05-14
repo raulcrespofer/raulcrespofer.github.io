@@ -4,5 +4,5 @@ function gestionarFicheroXML(xmlDoc){
 }
 
 
-	loadDocA("leerFicheroXML.xml","xml");
+	loadDocA("libros.xml","xml");
 

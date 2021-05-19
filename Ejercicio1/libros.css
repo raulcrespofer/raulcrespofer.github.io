@@ -1,0 +1,10 @@
+p
+{
+    background-color: red;
+}
+.busquedaLibros
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -2,9 +2,7 @@ p
 {
     background-color: red;
 }
-.busquedaLibros
+div
 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    background-color:blue;
 }

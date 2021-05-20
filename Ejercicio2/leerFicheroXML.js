@@ -11,7 +11,7 @@ function gestionarFicheroXML(xmlDoc){
 	
 }
 	}
-}
+
 
 	loadDocA("mensajes.xml","xml");
 

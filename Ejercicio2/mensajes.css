@@ -8,6 +8,8 @@
 }
 .primero
 {
+    height: auto;
+    width: max-content;
     text-align: left;
     display: flex;
     align-items: left;
@@ -16,6 +18,8 @@
 }
 .segundo
 {
+    height: auto;
+    width: max-content;
     text-align: right;
     display: flex;
     align-items: right;

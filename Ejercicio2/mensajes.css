@@ -1,5 +1,6 @@
 main{
     background-image: url(fondo-predeterminado-whatsapp.jpg);
+    background-repeat: repeat;
     display: flex;
 }
 .primero

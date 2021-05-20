@@ -10,7 +10,7 @@ function gestionarFicheroXML(xmlDoc){
 			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='azul'>" + mensajes[i].textContent + "</p>"
 	
 }
-	}
+}
 
 
 	loadDocA("mensajes.xml","xml");

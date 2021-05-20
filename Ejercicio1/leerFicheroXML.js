@@ -7,7 +7,7 @@ function gestionarFicheroXML(xmlDoc){
 			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='amarillo'>" + libros[i].textContent + "</p>"
 		}
 }
-
+}
 
 
 	loadDocA("libros.xml","xml");

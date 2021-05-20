@@ -7,7 +7,8 @@ function gestionarFicheroXML(xmlDoc){
 			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='amarillo'>" + libros[i].textContent + "</p>"
 		}
 		else{
-		capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + libros[i].textContent + "</p>"}
+			capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + libros[i].textContent + "</p>"
+		}
 }
 }
 

@@ -1,7 +1,9 @@
 function gestionarFicheroXML(xmlDoc){
 	let capaVacia = document.querySelector("#ficheroXML")
-	let mensajes = xmlDoc.querySelectorAll("mensaje")
+	let primero = xmlDoc.querySelectorAll("primero")
+	let segundo = xmlDoc.querySelectorAll("segundo")
 	let conversacion = xmlDoc.querySelector("conversacion")
+	capaVacia.innerHTML = capaVacia.innerHTML + "<main class='conversacion'>" + "</main>"
 	for(let i=0; i<primero.length&&derecha.length; i++){
 		
 		capaVacia.innerHTML = capaVacia.innerHTML + "<main class='conversacion'>" + "</main>"

@@ -2,11 +2,11 @@
 <?xml-stylesheet href="libros.css"?>
 
 <conversacion>
-	<mensaje>Ola k tl</mensaje>
-	<mensaje>Bn y tu?</mensaje>
-	<mensaje>Aki stamos makina</mensaje>
-	<mensaje>Me alegro x ti</mensaje>
-	<mensaje>Venga nos vmos fiera</mensaje>
-	<mensaje>vale crack</mensaje>
+	<primero>Ola k tl</primero>
+	<segundo>Bn y tu?</segundo>
+	<primero>Aki stamos makina</primero>
+	<segundo>Me alegro x ti</segundo>
+	<primero>Venga nos vmos fiera</primero>
+	<segundo>vale crack</segundo>
 </conversacion>
 

@@ -10,7 +10,6 @@
 {
     height: auto;
     width: max-content;
-    text-align: left;
     display: flex;
     align-items: left;
     color: white;
@@ -20,7 +19,7 @@
 {
     height: auto;
     width: max-content;
-    text-align: right;
+    text-align: end;
     display: flex;
     align-items: right;
     color:white;

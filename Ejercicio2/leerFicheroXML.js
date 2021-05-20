@@ -8,9 +8,9 @@ function gestionarFicheroXML(xmlDoc){
 		
 		capaVacia.innerHTML = capaVacia.innerHTML + "<main class='conversacion'>" + "</main>"
 
-			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='verde'>" + mensajes[i].textContent + "</p>"
+			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='primero'>" + primero[i].textContent + "</p>"
 
-			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='azul'>" + mensajes[i].textContent + "</p>"
+			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='segundo'>" + segundo[i].textContent + "</p>"
 	
 }
 	}

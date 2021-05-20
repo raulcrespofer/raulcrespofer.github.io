@@ -4,7 +4,7 @@ function gestionarFicheroXML(xmlDoc){
 	let segundo = xmlDoc.querySelectorAll("segundo")
 	let conversacion = xmlDoc.querySelector("conversacion")
 	capaVacia.innerHTML = capaVacia.innerHTML + "<main class='conversacion'>" + "</main>"
-	for(let i=0; i<primero.length&&derecha.length; i++){
+	for(let i=0; i<primero.length&&segundo.length; i++){
 		
 		capaVacia.innerHTML = capaVacia.innerHTML + "<main class='conversacion'>" + "</main>"
 

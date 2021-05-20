@@ -8,8 +8,10 @@
 }
 .primero
 {
+    border-radius: 10%;
     height: auto;
     width: max-content;
+    text-align: left;
     display: flex;
     align-items: left;
     color: white;
@@ -17,10 +19,12 @@
 }
 .segundo
 {
+    border-radius: 10%;
     height: auto;
     width: max-content;
-    text-align: end;
+    text-align:right;
     display: flex;
+    flex-direction: row-reverse;
     align-items: right;
     color:white;
     background-color:mediumblue;

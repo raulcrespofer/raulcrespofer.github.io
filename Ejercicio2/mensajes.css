@@ -1,8 +1,12 @@
-p
-{
-    background-color: red;
+main{
 }
-.amarillo
+primero
 {
-    background-color: yellow;
+    color: white;
+    background-color:green;
+}
+segundo
+{
+    color:white;
+    background-color:mediumblue;
 }

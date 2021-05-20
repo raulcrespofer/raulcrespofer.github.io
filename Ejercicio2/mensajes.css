@@ -1,12 +1,19 @@
 main{
+    display: flex;
 }
 .primero
 {
+    text-align: left;
+    display: flex;
+    align-items: left;
     color: white;
     background-color:green;
 }
 .segundo
 {
+    text-align: right;
+    display: flex;
+    align-items: right;
     color:white;
     background-color:mediumblue;
 }

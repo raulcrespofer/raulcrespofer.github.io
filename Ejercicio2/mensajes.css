@@ -5,8 +5,7 @@
 {
     border-radius: 10%;
     height: auto;
-    width: max-content;
-    text-align: left;
+    width: auto;
     display: flex;
     color: white;
     background-color:green;
@@ -15,7 +14,7 @@
 {
     border-radius: 10%;
     height: auto;
-    width: max-content;
+    width: auto
     text-align:end;
     display: flex;
     color:white;

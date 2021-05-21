@@ -6,7 +6,6 @@
     border-radius: 10%;
     height: auto;
     width: auto;
-    display: flex;
     color: white;
     background-color:green;
 }
@@ -16,7 +15,6 @@
     height: auto;
     width: auto;
     text-align:end;
-    display: flex;
     color:white;
     background-color:mediumblue;
 }

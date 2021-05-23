@@ -2,7 +2,7 @@ p
 {
     background-color: red;
 }
-.amarillo
+p:nth-child (3)
 {
     background-color: yellow;
 }

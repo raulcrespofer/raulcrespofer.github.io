@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-15"?> 
+<?xml-stylesheet href="libros.css"?>
+
+<animales>
+	<nombre>Pepe</nombre>
+	<especie>Cabra</especie>
+	<tipo>Mamifero</tipo>
+    <edad>13</edad>
+</animales>
+<animales>
+	<nombre>Simba</nombre>
+	<especie>Leon</especie>
+	<tipo>Mamifero</tipo>
+    <edad>11</edad>
+</animales>

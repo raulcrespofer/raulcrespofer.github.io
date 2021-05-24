@@ -1,7 +1,7 @@
 function gestionarFicheroXML(xmlDoc){
 	let capaVacia = document.querySelector("#ficheroXML")
 	let animales = xmlDoc.querySelectorAll("animales")
-	for(let i=0; i<alumnos.length; i++){
+	for(let i=0; i<animales.length; i++){
 		if(i == 2){
 			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='fondo2'>" + animales[i].textContent + "</p>"
 		}

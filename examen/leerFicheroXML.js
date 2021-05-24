@@ -1,19 +1,20 @@
 function gestionarFicheroXML(xmlDoc){
 	let capaVacia = document.querySelector("#ficheroXML")
-	let primero = xmlDoc.querySelectorAll("primero")
-	let segundo = xmlDoc.querySelectorAll("segundo")
-	let conversacion = xmlDoc.querySelector("conversacion")
-	capaVacia.innerHTML = capaVacia.innerHTML + "<main class='conversacion'>"
-	for(let i=0; i<primero.length&&segundo.length; i++){
-		
-			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='primero'>" + primero[i].textContent + "</p>"
-
-			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='segundo'>" + segundo[i].textContent + "</p>"
-	
+	let animales = xmlDoc.querySelectorAll("animales")
+	for(let i=0; i<alumnos.length; i++){
+		if(i == 2){
+			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='fondo2'>" + animales[i].textContent + "</p>"
+		}
+		else{
+			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='fondo1'>" + animales[i].textContent + "</p>"
+		}
+}
 }
 capaVacia.innerHTML = capaVacia.innerHTML +  "</main>"
-}
+
+let capa = document.querySelector("p:nth-child(1)") 
+capa.addEventListener("click",CargarFichero);
+function CargarFichero()
 
 
-	loadDocA("mensajes.xml","xml");
-
+	loadDocA("animales.xml","xml");

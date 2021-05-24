@@ -1,0 +1,22 @@
+.conversacion
+{
+}
+.primero
+{
+    border:1px solid black;
+    border-radius: 10%;
+    height: auto;
+    width: auto;
+    color: white;
+    background-color:green;
+}
+.segundo
+{
+    border:1px solid black;
+    border-radius: 10%;
+    height: auto;
+    width: auto;
+    text-align:end;
+    color:white;
+    background-color:mediumblue;
+}
